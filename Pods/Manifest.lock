@@ -1,0 +1,15 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - MJRefresh (3.1.12)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - MJRefresh
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+
+PODFILE CHECKSUM: b41a3ae6482bba0e8a719fdfd27ffee4a2ce1f37
+
+COCOAPODS: 1.2.1
