@@ -2,6 +2,7 @@
 # 使用方法
 
 ```
+  下载第三方DZNEmptyDataSet,因为我修改过了,所以需要你手动拖进去
   #import "UIScrollView+DPRefresh.h"
   #import "UIScrollView+DPEmptyDataSet.h"
 
