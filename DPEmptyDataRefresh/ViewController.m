@@ -22,8 +22,6 @@
     
     [self.view addSubview:self.tabView];
     [self setupTableView];
-    float  s=floor([@"123.325235" floatValue]*100) / 100;
-//    NSLog(@"%f",);
     
     
 }
