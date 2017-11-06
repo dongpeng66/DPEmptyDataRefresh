@@ -1,2 +1,21 @@
 # DPEmptyDataRefresh
-#deom详情看ViewController.m文件,  DZNEmptyDataSet第三方我更改过了 需要你也更改,所以你可以把我的直接拖进去
+# 使用方法
+
+```
+  #import "UIScrollView+DPRefresh.h"
+  #import "UIScrollView+DPEmptyDataSet.h"
+
+  [self.tabView setRefreshWithHeaderBlock:^{
+        [self head];
+    } footerBlock:^{
+        [self foot];
+    }];
+    
+    [self.tabView setupEmptyDataText:nil verticalOffset:100 emptyImage:[UIImage imageNamed:@"sdf"] buttonText:@"" tapBlock:^{
+        
+    }];
+```
+
+# 效果
+
+![DPEmptyDataRefresh](https://github.com/Resory/Images/blob/master/RYNumberKeyboard.gif)
